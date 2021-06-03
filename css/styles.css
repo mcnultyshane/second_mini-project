@@ -78,14 +78,14 @@ code {
 }
 
 header {
-    width: 96;
+    width: 96%;
     margin: 0 auto;
     padding: 2.5rem;
     text-align: center;
 }
 
 header h1.page-title {
-    padding: 1rem, 1.2rem;
+    padding: 1rem 1.2rem;
     font-size: 4.5rem;
 }
 
@@ -164,12 +164,12 @@ footer {
     white-space: pre-wrap;
     overflow: auto;
     tab-size: 4;
-    pad: 1.2rem 1rem;
+    padding: 1.2rem 1rem;
     color: var(--gin);
     border-radius: 8px;
     /* use linear gradient() funtion to creat a fading background */
     background-image: linear-gradient(
-        rgba(232, 102, 236, 0.3) 0%
+        rgba(232, 102, 236, 0.3) 0%,
         rgba(232, 102, 236, 0.6) 100%
     );
     display: flex;
